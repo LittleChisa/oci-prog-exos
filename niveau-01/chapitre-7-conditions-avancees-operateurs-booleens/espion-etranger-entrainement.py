@@ -1,4 +1,3 @@
-
 ##################################
 # fichier espion-etranger-entrainement.py
 # nom de l'exercice :  Espion étranger
@@ -17,3 +16,17 @@
 
 # mettre votre code ici
 
+dateDebut = int(input())
+dateFin = int(input())
+
+suspects = 0
+
+nbEntrees = int(input())
+
+for loop in range(nbEntrees):
+   dateEntree = int(input())
+
+   if (dateEntree >= dateDebut) and (dateEntree <= dateFin):
+      suspects = suspects + 1
+
+print(suspects)
