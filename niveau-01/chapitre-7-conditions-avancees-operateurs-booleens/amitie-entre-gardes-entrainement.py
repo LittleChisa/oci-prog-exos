@@ -1,4 +1,3 @@
-
 ##################################
 # fichier amitie-entre-gardes-entrainement.py
 # nom de l'exercice :  Amitié entre gardes
@@ -17,3 +16,16 @@
 
 # mettre votre code ici
 
+dateDebut1 = int(input())
+dateFin1 = int(input())
+
+dateDebut2 = int(input())
+dateFin2 = int(input())
+
+if dateFin1 < dateDebut2:
+   print("Pas amis")
+if dateFin1 >= dateDebut2:
+   if dateDebut1 > dateFin2:
+      print("Pas amis")
+   else:
+      print("Amis")
