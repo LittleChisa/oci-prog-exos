@@ -1,4 +1,3 @@
-
 ##################################
 # fichier departement-de-medecine--controle-d-une-epidemie-entrainement.py
 # nom de l'exercice :  Département de médecine : contrôle d'une épidémie
@@ -17,3 +16,12 @@
 
 # mettre votre code ici
 
+populationTotale = int(input())
+malade = 1
+jour = 1
+
+while malade >= 1 and malade < populationTotale:
+   malade = malade + (malade * 2)
+   jour = jour + 1
+   
+print(jour)
