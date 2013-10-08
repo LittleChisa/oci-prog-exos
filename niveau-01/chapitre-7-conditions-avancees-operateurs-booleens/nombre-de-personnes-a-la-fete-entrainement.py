@@ -1,4 +1,3 @@
-
 ##################################
 # fichier nombre-de-personnes-a-la-fete-entrainement.py
 # nom de l'exercice :  Nombre de personnes à la fête
@@ -17,3 +16,17 @@
 
 # mettre votre code ici
 
+nbPersonnes = int(input())
+total = 0
+maximum = 0
+
+for loop in range(nbPersonnes * 2):
+   dundundun = int(input())
+   if dundundun > 0:
+      total = total + 1
+   else:
+      total = total - 1
+   if total > maximum:
+      maximum = total
+      
+print(maximum)
