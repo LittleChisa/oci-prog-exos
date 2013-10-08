@@ -1,4 +1,3 @@
-
 ##################################
 # fichier personne-disparue-entrainement.py
 # nom de l'exercice :  Personne disparue
@@ -17,3 +16,17 @@
 
 # mettre votre code ici
 
+recherche = int(input())
+tailleListe = int(input())
+
+dehors = 0
+
+for loop in range(tailleListe):
+   sortie = int(input())
+   if sortie == recherche:
+      dehors = 0 + 1
+  
+if dehors > 0:
+   print("Sorti de la ville")
+else:
+   print("Encore dans la ville")
