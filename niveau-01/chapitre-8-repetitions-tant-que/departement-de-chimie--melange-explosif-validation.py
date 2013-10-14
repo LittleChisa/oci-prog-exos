@@ -1,4 +1,3 @@
-
 ##################################
 # fichier departement-de-chimie--melange-explosif-validation.py
 # nom de l'exercice :  Département de chimie : mélange explosif
@@ -17,3 +16,21 @@
 
 # mettre votre code ici
 
+# ...J'aurais dû utiliser while...-u-;;
+
+mesuresTotales = int(input())
+temperatureMin = int(input())
+temperatureMax = int(input())
+
+
+pasDanger = True
+for loop in range(mesuresTotales):
+   temperature = int(input())
+
+   if pasDanger:
+      if temperature >= temperatureMin and temperature <= temperatureMax:
+         print("Rien à signaler")
+    
+      else:
+         print("Alerte !!")
+         pasDanger = False
