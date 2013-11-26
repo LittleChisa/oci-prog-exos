@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 04-liste-de-courses-obligatoire.py
 # nom de l'exercice : Liste de courses
@@ -17,3 +16,13 @@
 
 # mettre votre code ici
 
+prix = [9, 5, 12, 15, 7, 42, 13, 10, 1, 20]
+total = 0
+ingredient = -1
+
+for loop in range(10):
+   poids = int(input())
+   ingredient = ingredient + 1
+   total = total + ( poids * prix[ingredient] )
+   
+print(total)
