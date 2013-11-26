@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 06-etude-de-marche-obligatoire.py
 # nom de l'exercice : Étude de marché
@@ -17,3 +16,14 @@
 
 # mettre votre code ici
 
+nbProduits = int(input())
+nbPersonnes = int(input())
+
+produits = [0] * nbProduits
+
+for loop in range(nbPersonnes):
+   prefere = int(input())
+   produits[prefere] = produits[prefere] + 1
+
+for prefere in range(nbProduits):
+   print(produits[prefere])
