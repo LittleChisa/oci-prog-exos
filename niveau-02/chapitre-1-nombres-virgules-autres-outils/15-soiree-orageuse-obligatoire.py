@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 15-soiree-orageuse-obligatoire.py
 # nom de l'exercice : Soirée orageuse
@@ -17,3 +16,13 @@
 
 # mettre votre code ici
 
+from math import *
+
+vitesse = 0.34029
+
+temps = float(input())
+
+distance = vitesse * temps
+distance = round(distance)
+
+print(distance)
