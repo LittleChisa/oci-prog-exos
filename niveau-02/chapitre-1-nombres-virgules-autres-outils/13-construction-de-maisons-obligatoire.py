@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 13-construction-de-maisons-obligatoire.py
 # nom de l'exercice : Construction de maisons
@@ -17,3 +16,11 @@
 
 # mettre votre code ici
 
+from math import *
+
+cimentNeed = float(input())
+sacs = cimentNeed / 60
+
+arrondiSup = ceil(sacs)
+
+print(arrondiSup * 45)
