@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 02-preparation-de-l-onguent-obligatoire.py
 # nom de l'exercice : Préparation de l'onguent
@@ -17,3 +16,7 @@
 
 # mettre votre code ici
 
+quantiteIngredient = [500, 180, 650, 25, 666, 42, 421, 1, 370, 211]
+
+numeroIngredient = int(input())
+print(quantiteIngredient[numeroIngredient])
