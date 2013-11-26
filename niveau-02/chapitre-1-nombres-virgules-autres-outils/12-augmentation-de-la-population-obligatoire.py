@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 12-augmentation-de-la-population-obligatoire.py
 # nom de l'exercice : Augmentation de la population
@@ -17,3 +16,14 @@
 
 # mettre votre code ici
 
+from math import *
+
+population = int(input())
+croissance = float(input())
+
+pourcentage = population * croissance / 100
+populationNew = population + pourcentage
+
+arrondiInf = floor(populationNew)
+
+print(arrondiInf)
