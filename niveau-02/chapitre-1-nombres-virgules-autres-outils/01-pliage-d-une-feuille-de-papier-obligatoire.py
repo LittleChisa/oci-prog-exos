@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 01-pliage-d-une-feuille-de-papier-obligatoire.py
 # nom de l'exercice : Pliage d'une feuille de papier
@@ -17,3 +16,9 @@
 
 # mettre votre code ici
 
+epaisseur = 0.011
+
+for loop in range(15):
+   epaisseur = epaisseur * 2
+  
+print(epaisseur)
