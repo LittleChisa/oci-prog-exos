@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 09-journee-des-cadeaux-obligatoire.py
 # nom de l'exercice : Journée des cadeaux
@@ -17,3 +16,23 @@
 
 # mettre votre code ici
 
+nbHabitants = int(input())
+
+tableau = [0] * nbHabitants
+rang = 0
+
+for loop in range(nbHabitants):
+   fortune = int(input())
+   tableau[rang] = fortune
+   rang = rang + 1
+   
+tableau.sort()
+
+
+if nbHabitants % 2 == 1 :
+   nbHabitants = (nbHabitants - 1) // 2
+   print(tableau[nbHabitants])
+
+else :
+   total = (tableau[nbHabitants // 2 - 1]) + (tableau[nbHabitants // 2])
+   print(total / 2)
