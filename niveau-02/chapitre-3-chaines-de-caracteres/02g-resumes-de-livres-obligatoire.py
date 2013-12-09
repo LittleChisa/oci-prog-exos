@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 02g-resumes-de-livres-obligatoire.py
 # nom de l'exercice : Résumés de livres
@@ -17,3 +16,15 @@
 
 # mettre votre code ici
 
+nbLivres = int(input())
+longueurMinimale = int(input())
+
+for loop in range(nbLivres):
+   titre = input()
+   resume = input()
+   
+   longueur = len(resume)
+   if longueur < longueurMinimale:
+      print(titre)
+      
+#ah, en fait, longueur est une variable inutile orz;;;
