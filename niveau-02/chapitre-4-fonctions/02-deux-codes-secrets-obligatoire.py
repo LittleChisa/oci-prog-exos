@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 02-deux-codes-secrets-obligatoire.py
 # nom de l'exercice : Deux codes secrets
@@ -17,3 +16,18 @@
 
 # mettre votre code ici
 
+def lireCode():
+   tentative = 0
+   while tentative != code:
+      print("Entrez le code :")
+      tentative = int(input())
+
+code = 4242
+lireCode()
+
+print("Premier code bon.")
+
+code = 2121
+lireCode()
+
+print("Bravo.")
