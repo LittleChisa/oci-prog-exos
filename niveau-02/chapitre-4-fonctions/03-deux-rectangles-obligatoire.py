@@ -1,4 +1,3 @@
-
 ##################################
 # fichier 03-deux-rectangles-obligatoire.py
 # nom de l'exercice : Deux rectangles
@@ -17,3 +16,9 @@
 
 # mettre votre code ici
 
+def afficherRectangle(caractere, nbLignes, nbColonnes):
+   for loop in range(nbLignes):
+      print(caractere * nbColonnes)
+
+afficherRectangle("X", 4, 10)
+afficherRectangle("O", 6, 5)
